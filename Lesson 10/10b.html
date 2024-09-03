@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout Practice</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .photo{
+                display: flexbox;
+                float: left;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-top: 5px;
+            }
+             .video-info{
+                display: inline-block;
+             }
+             .name,
+
+             .animal-name,
+
+             .info{
+                font-family: Arial;
+                margin-left: 15px;
+             }
+             .animal-name,
+             .info{
+                color: gray;
+             }
+             .name{
+                margin-top: 0;
+                margin-bottom: 5px;
+                font-weight: bold;
+             }
+             .animal-name{
+                margin-bottom: 3px;
+                margin-top: 0;
+             }
+             .info{
+                margin-top: 0;
+             }
+             .button{
+                margin-top: 0px;
+                margin-left: 150px
+             }
+             button{
+                background-color: rgb(0, 115, 255);
+                color: white;
+                border: none;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 5px;
+                /* margin-top: 50px; */
+                margin-left: 150px;
+             }
+             .info_wrapper{
+                float: left;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="video-info">
+                <img class="photo" src="photos/picture.jpg">
+           
+            <div class="info_wrapper">
+                <p class="name">
+                    Oliver
+                </p>
+                <p class="animal-name">
+                    the cat
+                </p>
+    
+                <p class="info">
+                    Popular
+                </p>
+            </div>
+           
+            <div class="button">
+                <button>
+                    Follow
+                </button>
+            </div> 
+        </div>
+        <br>
+        <!-- break -->
+       
+        <div class="video-info">
+            <img class="photo" src="photos/picture.jpg">
+
+            <div class="info_wrapper">
+                <p class="name">
+                    Mimi
+                </p>
+    
+                <p class="animal-name">
+                    Sleepy cat
+                </p>
+    
+                <p class="info">
+                    Popular
+                </p>
+            </div>
+         <div class="button">
+                <button>
+                    Follow
+             </button>
+            </div>
+        </div>
+        <br>
+        <!-- break -->
+        
+        <div class="video-info">
+                <img class="photo" src="photos/picture.jpg">
+                <div class="info_wrapper">
+                    <p class="name">
+                        Poppy
+                    </p>
+        
+                    <p class="animal-name">
+                        Happy Dog
+                    </p>
+        
+                    <p class="info">
+                        Popular
+                    </p>
+                </div>
+            
+            <div class="button">
+                <button>
+                    Follow
+                </button>
+            </div>  
+        </div>
+    </body>
+</html>
