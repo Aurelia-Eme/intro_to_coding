@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Flexbox</title>
+        <style>
+            .rows{
+                height: 70px;
+                border: none;
+                margin-right: 350px;
+                display: flex;
+                align-items: center;
+            }
+            .row-number{
+                background-color: lightpink;
+                height: 70px;
+                width: 100px;
+                color: white;
+            }
+            .row-1{
+                background-color: lightblue;
+                height: 70px;
+                width: 200px;
+            }
+            .row-2{
+                display: flex;
+                justify-content: space-between;
+                word-spacing: 110px;
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="rows">
+            <div class="row-number"></div>
+            <div class="row-1">row1 <div 
+                class="row-2">row2 row2</div>
+        </div>
+    <body>
+</html>

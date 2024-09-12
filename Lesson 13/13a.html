@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Flexbox</title>
+        <style>
+            .items{
+                height: 70px;
+                border: none;
+                margin-right: 350px;
+                display: flex;
+            }
+            .item-1{
+                display: flex;
+                align-items:center;
+                background-color: lightpink;height: 70px;width: 100px;color: white;
+            }
+            .item-2{
+                background-color: lightblue;height: 70px;width: 200px;
+            }
+            .black-box{
+                width: fit-content;
+                height: fit-content;
+                margin:auto;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="items">
+            <div class="item-1">
+                    <div class="black-box">
+                        item1
+                    </div>
+                </div>
+            <div class="item-2"></div>
+        </div>
+    </body>
+</html>

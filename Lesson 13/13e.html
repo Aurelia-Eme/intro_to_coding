@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Flexbox</title>
+    </head>
+    <style>
+        .photo{
+        display: flex;
+        float: left;
+        height: 50px;
+        width: 50px;
+        margin-top: 5px;
+    }
+    img{
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+    }
+    .container-row{
+        display: inline-block;
+        float: inline-end;
+        margin-left: 10px;
+    }
+    .promotion-kind,
+    .sales{
+        font-weight: bold;
+    }
+    .promotion-kind{
+        margin-bottom: 5px;
+        
+    }
+    .comment{
+        color: grey;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .container{
+        display: inline-block;
+        font-family: Roboto, Arial;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        padding-right: 15px;
+        padding-top: 10px;
+    }
+    .inboxes{
+        margin-bottom: 20px;
+        color: gray;
+        font-size: 12px;
+    }
+    .time-1{
+        margin-left: 100px;
+        color: gray;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .time-2{
+        margin-left: 170px;
+        color: gray;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .time-3{
+        margin-left: 200px;
+        color: gray;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .container-info{
+        border: solid;
+        border-color: gray;
+        border-radius: 10px;
+        box-shadow: inset 5px 10px rgba(0, 0, 0, 0,15);
+        border:rgba(0, 0, 0, 0,15);
+        margin-right: 230px;
+    }
+    </style>
+    <body>
+        <div class="container-info">
+            <div class="container">
+                <div class="inboxes">
+                    ALL INBOXES
+                </div>
+                <div class="photo">
+                    <img src="photos/kitty-cat-kitten-pet-45201.jpeg">
+                </div>
+                <div class="container-row">
+                    <div class="promotion-kind">
+                        Chewy Promotions  <span class="time-1">4:58 PM</span>
+                    </div>
+                    <div class="sales">
+                        Biggest sales of the year!
+                    </div>
+                    <div class="comment">
+                        Hey there! We're writing to tell you about our...
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="photo">
+                    <img src="photos/Oliver.png">
+                </div>
+                <div class="container-row">
+                    <div class="promotion-kind">
+                        Best Buy  <span class="time-2">12:32 PM</span>
+                    </div>
+                    <div class="sales">
+                        Your Best Buy eReceipt
+                    </div>
+                    <div class="comment">
+                        Thank you for shopping at Best Buy, here is...
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="photo">
+                    <img src="photos/puppy.webp">
+                </div>
+                <div class="container-row">
+                    <div class="promotion-kind">
+                        Netflix  <span class="time-3">9:00 AM</span>
+                    </div>
+                    <div class="sales">
+                        Here's what's coming soon to Netflix
+                    </div>
+                    <div class="comment">
+                        Brand new movies and shows, old favorites...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
