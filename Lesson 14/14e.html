@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position Practice</title>
+        <style>
+            img{
+                border-radius: 50%;
+                width: 100%;
+                height: auto;
+            }
+            .photo-1{
+                display: block;
+                height: 50px;
+                width: 50px;
+                margin-bottom: 10px;
+                padding-top: 10px;
+            }
+            .photo-2{
+                display: block;
+                height: 50px;
+                width: 50px;
+                margin-bottom: 10px;
+            }
+            .photo-3{
+                display: block;
+                height: 50px;
+                width: 50px;
+            }
+            .sidebar-1{
+                padding-left: 10px;
+                padding-bottom: 80px;
+                padding-right: 10px;
+                position: fixed;
+                background-color: rgb(27, 27, 27);
+            }
+            .info{
+                position: fixed;
+                left: 78px;
+                height: 260px;
+                display: block;
+                padding-left: 10px;
+                background-color: rgb(67, 67, 67);
+            }
+            .hashtag-1{
+                display: flex;
+                margin-top: 20px;
+                margin-bottom: 8px;
+                left: 78px;
+            }
+            .hashtag-2{
+                display: block;
+                left: 150px;
+                margin-bottom: 8px;
+            }
+            .hashtag-3{
+                display: block;
+                position: fixed;
+                left: 86px;
+            }
+            .sidebar-2{
+                box-sizing: border-box;
+                position: fixed;
+                left: 78px;
+                display: block;
+                padding-left: 10px;
+                padding-bottom: 180px;
+            }
+            .add-sign{
+                padding-left: 80px;
+                padding-right: 15px;
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sidebar-1">
+            <div class="photo-1">
+                <img src="photos/kitty-cat-kitten-pet-45201.jpeg">
+            </div>
+            <div class="photo-2">
+                <img src="photos/Oliver.png">
+            </div>
+            <div class="photo-3">
+                <img src="photos/puppy.webp">
+            </div>
+        </div>
+
+        <div class="sidebar-2">
+            <div class="info">
+                INFO <span class="add-sign">+</span>
+            </div>
+            <div class="hashtag-1">
+                # new-videos
+            </div>
+            <div class="hashtag-2">
+                # updates
+            </div>
+            <div class="hashtag-3">
+                # faq
+            </div>
+        </div>
+    </body>
+</html>
