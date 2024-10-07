@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finished Project Practice</title>
+        <style>
+            img{
+                width: 50px;
+            }
+            body{
+                height: 3000px;
+            }
+            .header-link-container{
+                position: relative;
+            }
+            .header-link img{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            .notification-number{
+                background-color: rgb(225, 85, 85);
+                color: white;
+                font-family: Roboto, Arial;
+                font-size: 12px;
+                font-weight: 500;
+                position: absolute;
+                top: 8px;
+                right: 6px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                border-radius: 50%;
+            }
+            .header-link:hover img{
+                cursor: pointer;
+            }
+            .header-link:hover .tooltip{
+                opacity: 1;
+            }
+            .header-link .tooltip{
+                position: absolute;
+                background-color: gray;
+                color: white;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-left: 8px;
+                padding-right: 8px;
+                border-radius: 2px;
+                font-size: 12px;
+                bottom: -30px;
+                opacity: 0;
+                transition: opacity 0.15s;
+                pointer-events: none;
+                margin-left: 650px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header-link-container">
+            <div class="header-link">
+                <img src="photos/bell-icon.jpg">
+                <div class="notification-number">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+        </div>
+    </body>
+</html>

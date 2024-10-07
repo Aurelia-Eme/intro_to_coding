@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position Absolute and Relative</title>
+        <style>
+            body{
+                height: 3000px;
+            }
+            .grey-box{
+                position: relative;
+                background-color: rgb(212, 209, 209);
+                width: 220px;
+                height: 320px;
+            }
+            img{
+                width: 200px;
+                padding-top: 50px;
+            }
+            .sale-percentage{
+                background-color: black;
+                color: white;
+                font-family: Roboto, Arial;
+                font-size: 12px;
+                font-weight: 500;
+                position: absolute;
+                top: 6px;
+                right: 0px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grey-box">
+
+            <div class="photo">
+                <img src="photos/266-MidBlue.png.webp">
+                <div class="sale-percentage">20% OFF</div>
+            </div>
+        </div>
+    </body>
+</html>

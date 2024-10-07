@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position Absolute and Relative</title>
+        <style>
+            body{
+                height: 3000px;
+            }
+            .grey-box{
+                position: relative;
+                background-color: rgb(212, 209, 209);
+                width: 220px;
+                height: 320px;
+            }
+            img{
+                width: 200px;
+                padding-top: 50px;
+            }
+            .sale-percentage{
+                background-color: black;
+                color: white;
+                font-family: Roboto, Arial;
+                font-size: 12px;
+                font-weight: 500;
+                position: absolute;
+                top: 6px;
+                right: 0;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .box{
+                position: relative;
+                background-color: rgba(255, 255, 255, 0.884); 
+                top: 0;
+                bottom: 0;
+            }
+            .add-chart{
+                font-family: Roboto, Arial;
+                font-size: 12px;
+                position: absolute;
+                left: 60px;
+                top: 260px;
+                background-color: white;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border: solid, 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grey-box">
+
+            <div class="photo">
+                <img src="photos/266-MidBlue.png.webp">
+                <div class="sale-percentage">20% OFF</div>
+                <div class="box"></div>
+                <div class="add-chart">Add to Cart</div>
+            </div>
+        </div>
+    </body>
+</html>
